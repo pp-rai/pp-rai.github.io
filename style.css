@@ -661,26 +661,49 @@ div.pp_default .pp_loaderIcon
 /* END ABOUT SECTION */
 
 
-/* REGISTRATION SECTION */
+/* SUBMISSION SECTION */
 
-#registration
+#submission
 {
     background-color: #0C628C;
-    zbackground-image: url("demo-images/background_img_04.jpg");
+    zbackground-image: url("demo-images/background_img_03.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     z-index: 6;
 }
 
-#registration .section-title-holder
+#submission .section-title-holder
 {
     background-color: #CB5C67;
 }
 
-#registration .section-title-holder span
+#submission .section-title-holder span
 {
     color: #0C628C;
+}
+
+
+/* REGISTRATION SECTION */
+
+#registration
+{
+    background-color: #CB5C67;
+    zbackground-image: url("demo-images/background_img_04.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 5;
+}
+
+#registration .section-title-holder
+{
+    background-color: #0C628C;
+}
+
+#registration .section-title-holder span
+{
+    color: #CB5C67;
 }
 
 .blog-item-holder
@@ -786,22 +809,22 @@ div.pp_default .pp_loaderIcon
 
 #informations
 {
-    background-color: #CB5C67;
+    background-color: #0C628C;
     abackground-image: url("demo-images/background_img_06.jpg");
     background-repeat: repeat-x;
     background-position: center center;
     background-size: auto;
-    z-index: 5;
+    z-index: 4;
 }
 
 #informations .section-title-holder
 {
-    background-color: #0C628C;
+    background-color: #CB5C67;
 }
 
 #informations .section-title-holder span
 {
-    color: #CB5C67;
+    color: #0C628C;
 }
 
 #informations .section-content-holder
@@ -846,23 +869,23 @@ a.video-popup-holder:hover img.popup-play
 
 #committees
 {
-    background-color: #0C628C;
+    background-color: #CB5C67;
     abackground-image: url("demo-images/item_background_01.jpg");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100%;
-    z-index: 4;
+    z-index: 3;
 }
 
 
 #committees .section-title-holder
 {
-    background-color: #CB5C67;
+    background-color: #0C628C;
 }
 
 #committees .section-title-holder span
 {
-    color: #0C628C;
+    color: #CB5C67;
 }
 
 .progress_bar
@@ -1114,7 +1137,7 @@ span.contact-form-not-valid-tip
 
 footer
 {
-    background-color: #CB5C67;
+    background-color: #0C628C;
 }
 
 .footer
@@ -1122,7 +1145,7 @@ footer
     font-size: 16px;
     line-height: 36px;
     clear: both;
-    color: #0C628C;
+    color: #CB5C67;
     text-align: center;
     padding: 100px 0;
 }
