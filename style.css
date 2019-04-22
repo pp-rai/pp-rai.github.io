@@ -265,21 +265,7 @@ body a:hover
     z-index: 10;
 }
 
-.intro-page::after {
-  content: "";
-  min-height: calc(100vh - 170px);
-  background-image:url(pp-images/image_001.jpg);
-  background-repeat: repeat;
-  background-position: center top;
-  background-size: cover;
-  opacity: 0.1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
+
 
 .top-logo
 {
@@ -335,6 +321,8 @@ h1.big-title
     width: 100%;
 }
 
+
+
 /* END HOME SECTION */
 
 
@@ -344,7 +332,25 @@ h1.big-title
 #congress
 {
     background-color: #CB5C67;
+    zbackground-image: url("pp-images/image_003.jpg");
     z-index: 9;
+}
+
+
+#congress::after {
+  content: "";
+  min-height: calc(100vh - 170px);
+  background-image:url(pp-images/image_003.jpg);
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 #congress .section-title-holder
@@ -1771,4 +1777,66 @@ footer
     {
         top: -84px;
     }
+}
+
+
+/* background images */
+#congress::after, #prelegents::after, #program::after, #submission::after, #registration::after, #informations::after, #committees::after {
+  content: "";
+  min-height: calc(100vh - 170px);
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+#congress::after {
+  background-image:url(pp-images/image_007.jpg);
+}
+
+#prelegents::after {
+  background-image:url(pp-images/image_009.jpg);
+}
+
+#program::after {
+  background-image:url(pp-images/image_010.jpg);
+}
+
+#submission::after {
+  background-image:url(pp-images/image_011.jpg);
+}
+
+#registration::after {
+  background-image:url(pp-images/image_012.jpg);
+}
+
+#informations::after {
+  background-image:url(pp-images/image_013.jpg);
+}
+
+#committees::after {
+  background-image:url(pp-images/image_004.jpg);
+}
+
+.intro-page::after {
+  content: "";
+  min-height: calc(100vh - 170px);
+  background-image:url(pp-images/image_002-a.jpg);
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.05;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
