@@ -8,6 +8,36 @@ body
     background-color: #0C628C;
 }
 
+.sponsors{
+  margin: 2% 5%;
+  padding: 2em 0;
+  border-top: 2px solid #0C628C;
+  border-bottom: 2px solid #0C628C;
+}
+
+.sponsors img {
+  border-radius: 10px;
+  width: 14%;
+  margin: 1%;
+  float: left;
+  opacity: .75;
+}
+
+.sponsors span {
+  border-radius: 10px;
+  width: 14%;
+  padding: 1%;
+  margin: 1%;
+  float: left;
+  opacity: .8;
+  display: block;
+  line-height: 1.14em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  font-weight: 700;
+  color:#0C628C;
+}
+
 body a
 {
     text-decoration: none;
@@ -259,7 +289,7 @@ body a:hover
 
 .intro-page
 {
-    padding-bottom: 170px;
+    padding-bottom: 3em;
     min-height: calc(100vh - 170px);
     background-color: #0C628C;
     z-index: 10;
@@ -769,6 +799,28 @@ div.pp_default .pp_loaderIcon
     line-height: 20px;
 }
 
+.blog-item-holder .entry-title-b
+{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    vertical-align: top;
+    line-height: 0;
+}
+
+.blog-holder .entry-title-b a
+{
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+    display: block;
+    line-height: 20px;
+}
 .latest-post-bottom-text
 {
     text-align: center;
@@ -1798,11 +1850,11 @@ footer
 
 
 #congress::after {
-  background-image:url(pp-images/image_007.jpg);
+  background-image:url(pp-images/image_009.jpg);
 }
 
 #prelegents::after {
-  background-image:url(pp-images/image_009.jpg);
+  background-image:url(pp-images/image_007.jpg);
 }
 
 #program::after {
