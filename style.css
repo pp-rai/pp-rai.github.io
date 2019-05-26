@@ -16,21 +16,28 @@ body
   text-decoration: underline;
 }
 
-.sponsors{
+.sponsors, .organizers{
   margin: 2% 5%;
-  padding: 2em 0;
-  border-top: 2px solid #0C628C;
-  border-bottom: 2px solid #0C628C;
+  padding: .5em 0;
+  text-align: center;
 }
 
 .sponsors img:hover, .sponsors span:hover{
   opacity: 1;
 }
 
+.organizers img {
+  border-radius: 10px;
+  width: 20%;
+  margin: 0 15%;
+  float: left;
+  opacity: .75;
+}
+
 .sponsors img {
   border-radius: 10px;
   width: 14%;
-  margin: 1%;
+  margin: 0 1%;
   float: left;
   opacity: .75;
 }
@@ -1903,4 +1910,13 @@ footer
   right: 0;
   position: absolute;
   z-index: -1;
+}
+
+.sponsors-header {
+  text-align: center;
+}
+
+.sponsors-header h1 {
+  color: white;
+  font-size: 1em;
 }
