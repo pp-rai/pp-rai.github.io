@@ -1913,9 +1913,20 @@ footer
   z-index: -1;
 }
 
-.sponsors-header {
+.sponsors-header, .madryas-header {
   text-align: center;
 }
+
+.madryas-header {
+  margin: 0 0 -3em 0;
+}
+
+
+.madryas-header h1 {
+  color: white;
+  font-size: 1em;
+}
+
 
 .sponsors-header h1 {
   color: white;
