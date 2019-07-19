@@ -671,7 +671,7 @@ div.pp_default .pp_loaderIcon
 .member-content-holder
 {
     width: 330px;
-    padding: 90px 50px 50px 50px;
+    padding: 10px 50px 50px 50px;
     float: left;
 }
 
@@ -698,9 +698,21 @@ div.pp_default .pp_loaderIcon
 {
     line-height: 16px;
     font-size: 14px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     color: #ee87a4;
     letter-spacing: 4px;
+}
+
+.keynote-title
+{
+  text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #235C82;
+    letter-spacing: 4px;
+    font-weight: 600;
+
 }
 
 .member-content
